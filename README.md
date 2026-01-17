@@ -4,7 +4,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-FF4B4B.svg)](https://streamlit.io)
 
-> **PhD-Level Data Science Project**: A sophisticated multi-domain crisis forecasting system using advanced machine learning, time series analysis, and data fusion techniques.
+> ⚠️ **Educational Research Project**: This system uses **synthetic/simulated data** to demonstrate crisis forecasting methodology. It is NOT suitable for real-world crisis prediction without substantial validation with actual data sources.
+
+> **Data Science Portfolio Project**: A sophisticated multi-domain crisis forecasting system demonstrating advanced machine learning, time series analysis, and data fusion techniques.
 
 ## 🎯 Project Overview
 
@@ -24,7 +26,7 @@ This system predicts global crises by integrating and analyzing data from four c
 ✅ Monte Carlo scenario simulations (best/expected/worst case)  
 ✅ Interactive Streamlit dashboard with 6 pages  
 ✅ Real-time crisis alerts and warnings  
-✅ Comprehensive ethics and methodology documentation  
+✅ Comprehensive ethics and methodology documentation
 
 ## 🏗️ Architecture
 
@@ -107,6 +109,7 @@ python main.py --all
 ```
 
 This will:
+
 1. Generate synthetic data
 2. Preprocess and engineer features
 3. Train ensemble models
@@ -160,12 +163,12 @@ Then open your browser to: http://localhost:8501
 
 ### Ensemble Components
 
-| Model | Type | Key Features |
-|-------|------|--------------|
-| **Random Forest** | Tree-based ensemble | 200 trees, balanced weighting, feature importance |
-| **XGBoost** | Gradient boosting | 300 estimators, 0.05 learning rate, optimized hyperparameters |
-| **LSTM** | Deep learning | 2 layers (128, 64 units), sequence length 12, early stopping |
-| **Ensemble** | Weighted voting | Soft voting, dynamic weights, probability averaging |
+| Model             | Type                | Key Features                                                  |
+| ----------------- | ------------------- | ------------------------------------------------------------- |
+| **Random Forest** | Tree-based ensemble | 200 trees, balanced weighting, feature importance             |
+| **XGBoost**       | Gradient boosting   | 300 estimators, 0.05 learning rate, optimized hyperparameters |
+| **LSTM**          | Deep learning       | 2 layers (128, 64 units), sequence length 12, early stopping  |
+| **Ensemble**      | Weighted voting     | Soft voting, dynamic weights, probability averaging           |
 
 ### Feature Engineering
 
@@ -184,7 +187,7 @@ Then open your browser to: http://localhost:8501
 - **F1-Score**: 85%+
 - **ROC-AUC**: 0.90+
 
-*Note: Metrics based on simulated data. Real-world performance varies.*
+_Note: Metrics based on simulated data. Real-world performance varies._
 
 ## 📁 Project Structure
 
@@ -235,25 +238,30 @@ crisis_forecasting/
 ## ⚖️ Ethical Considerations
 
 ### Potential Benefits
+
 - Early warning saves lives
 - Better resource allocation
 - Informed policy-making
 - Reduced economic losses
 
 ### Potential Risks
+
 - False alarms causing panic
 - Missed crises creating false security
 - Potential for misuse or manipulation
 - Market destabilization
 
 ### Mitigation Strategies
+
 - Transparent confidence intervals
 - Multiple scenario analysis
 - Regular model validation
 - Responsible use guidelines
 
 ### Limitations
+
 ⚠️ This system **cannot**:
+
 - Predict exact timing of events
 - Account for all possible factors
 - Replace human judgment
@@ -300,7 +308,7 @@ This project demonstrates:
 ✅ **Real-world problem solving** - Ethical AI, scalability  
 ✅ **Data engineering** - ETL pipelines, database design  
 ✅ **Visualization & UX** - Interactive dashboards  
-✅ **Documentation** - Comprehensive methodology  
+✅ **Documentation** - Comprehensive methodology
 
 ## 🚀 Future Enhancements
 
@@ -315,12 +323,14 @@ This project demonstrates:
 ## 📈 Scalability
 
 ### Current Implementation
+
 - Single-server deployment
 - SQLite database
 - Monthly updates
 - ~100K data points
 
 ### Production Scaling
+
 - Cloud deployment (AWS/GCP/Azure)
 - Kubernetes orchestration
 - Apache Kafka + Airflow
@@ -345,6 +355,7 @@ This is an educational project. Contributions welcome:
 ## 📧 Contact
 
 For questions or collaboration:
+
 - Open an issue on GitHub
 - Email: sohambarate16@gmail.com
 
@@ -358,4 +369,4 @@ For questions or collaboration:
 
 **Built with ❤️ for global resilience and crisis prevention**
 
-*Note: This is a demonstration system using simulated data. Real-world deployment requires partnerships with international organizations and rigorous validation.*
+_Note: This is a demonstration system using simulated data. Real-world deployment requires partnerships with international organizations and rigorous validation._
