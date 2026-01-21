@@ -3,6 +3,9 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-FF4B4B.svg)](https://streamlit.io)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Click_Here-brightgreen?style=for-the-badge)](https://ai-crisis-forecasting.streamlit.app/)
+
+> **🎯 Try it now!** Click the **Live Demo** badge above to use the app instantly!
 
 > ⚠️ **Educational Research Project**: This system uses **synthetic/simulated data** to demonstrate crisis forecasting methodology. It is NOT suitable for real-world crisis prediction without substantial validation with actual data sources.
 
